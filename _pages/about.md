@@ -6,13 +6,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<br>
 Il Filippi Slam nasce da un'idea di Luca Filippi e Matteo Filippi con l'obiettivo di creare un appuntamento tennistico amatoriale capace di unire competizione, divertimento e spirito di aggregazione.
-
 L'iniziativa prende vita presso il circolo A.S.D. Tennis Alpo, dove il 29 dicembre 2025 si è svolta la prima edizione del torneo. Fin dall'inizio, l'intento è stato quello di offrire un'occasione semplice e accessibile per scendere in campo, trascorrere una giornata in compagnia e condividere la passione per il tennis in un contesto sereno e informale.
-
 Il Filippi Slam non vuole essere soltanto un torneo, ma un evento che cresce attraverso le persone che vi partecipano. Ogni edizione rappresenta un'opportunità per incontrarsi, mettersi alla prova, stringere nuove amicizie e contribuire alla costruzione di una piccola tradizione sportiva all'interno della comunità del Tennis Alpo.
-
 Con questo spirito, il progetto prosegue edizione dopo edizione, con l'obiettivo di offrire momenti di sport autentico, divertimento e condivisione, arricchendo l'esperienza di tutti i partecipanti, dentro e fuori dal campo.
 
 A data-driven personal website
