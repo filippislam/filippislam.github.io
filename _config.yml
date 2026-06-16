@@ -23,9 +23,8 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Foto_linkedin.jpg"
   name             : "Filippi Slam"
-  pronouns         : # example: "she/her"  
+  avatar           : "profile.png"
   bio              : "Il torneo di tennis di cui non sapevi di aver bisogno."
   location         : "Alpo, Verona"
   employer         : # "Red Brick University"
