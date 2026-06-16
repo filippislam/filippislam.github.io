@@ -1,15 +1,19 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "FILIPPI SLAM"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Il Filippi Slam nasce da un'idea di Luca Filippi e Matteo Filippi con l'obiettivo di creare un appuntamento tennistico amatoriale capace di unire competizione, divertimento e spirito di aggregazione.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+L'iniziativa prende vita presso il circolo A.S.D. Tennis Alpo, dove il 29 dicembre 2025 si è svolta la prima edizione del torneo. Fin dall'inizio, l'intento è stato quello di offrire un'occasione semplice e accessibile per scendere in campo, trascorrere una giornata in compagnia e condividere la passione per il tennis in un contesto sereno e informale.
+
+Il Filippi Slam non vuole essere soltanto un torneo, ma un evento che cresce attraverso le persone che vi partecipano. Ogni edizione rappresenta un'opportunità per incontrarsi, mettersi alla prova, stringere nuove amicizie e contribuire alla costruzione di una piccola tradizione sportiva all'interno della comunità del Tennis Alpo.
+
+Con questo spirito, il progetto prosegue edizione dopo edizione, con l'obiettivo di offrire momenti di sport autentico, divertimento e condivisione, arricchendo l'esperienza di tutti i partecipanti, dentro e fuori dal campo.
 
 A data-driven personal website
 ======
