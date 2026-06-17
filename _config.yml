@@ -220,18 +220,33 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  #teaching:
-    #output: true
-    #permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  #portfolio:
-    #output: true
-    #permalink: /:collection/:path/
-  #talks:
-    #output: true
-    #permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+  Storia:
+    output: true
+    permalink: /Storia/:path/
+  Edizioni:
+    output: true
+    permalink: /Edizioni/:path/
+  Albo d'oro:
+    output: true
+    permalink: /Albo d'oro/:path/
+  Partecipanti:
+    output: true
+    permalink: /Partecipanti/:path/
+  Contatti:
+    output: true
+    permalink: /Contatti/:path/
 
 
 # These settings control how pages and collections are included in the site
