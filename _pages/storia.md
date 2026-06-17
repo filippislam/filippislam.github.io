@@ -12,7 +12,7 @@ Fin dall'inizio, l'obiettivo non è mai stato quello di organizzare semplicement
 
 ## La prima edizione
 
-Il 29 dicembre 2025 si è disputata la prima edizione del Filippi Slam.<br>
+Il **29 dicembre 2025** si è disputata la prima edizione del Filippi Slam.<br>
 Con 8 partecipanti ai nastri di partenza, il torneo ha rappresentato il primo passo di un progetto nato quasi per gioco ma organizzato con l'ambizione di diventare un appuntamento ricorrente nel tempo.<br>
 Fin da subito si è cercato di costruire una formula che permettesse a tutti di giocare più partite possibili, evitando eliminazioni immediate e valorizzando l'esperienza di ogni partecipante.
 
