@@ -16,7 +16,7 @@ Perché, in fondo, il vero obiettivo non è soltanto vincere il torneo, ma condi
 
 Esplora il sito
 ------
-- Questo sito raccoglie la storia, i risultati e le persone che hanno contribuito a rendere il Filippi Slam un appuntamento sempre più partecipato nel corso degli anni.<br>
+Questo sito raccoglie la storia, i risultati e le persone che hanno contribuito a rendere il Filippi Slam un appuntamento sempre più partecipato nel corso degli anni.<br>
 - Nella sezione **Storia** è possibile scoprire come nasce il torneo, quali sono i suoi valori e come si è sviluppato a partire dalla prima edizione disputata presso l'A.S.D. Tennis Alpo.<br>
 - La sezione **Edizioni** raccoglie il resoconto di ogni torneo disputato, con formule di gioco, classifiche, risultati, fotografie e curiosità relative a ciascun evento.<br>
 - In **Albo d'Oro** è possibile ripercorrere la storia della competizione attraverso i vincitori e i finalisti che hanno lasciato il proprio nome nella storia del Filippi Slam.<br>
