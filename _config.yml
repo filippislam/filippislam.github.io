@@ -234,19 +234,19 @@ collections:
     permalink: /:collection/:path/
   Storia:
     output: true
-    permalink: /Storia/:path/
+    permalink: /storia/:path/
   Edizioni:
     output: true
-    permalink: /Edizioni/:path/
+    permalink: /edizioni/:path/
   Albo d'oro:
     output: true
-    permalink: /Albo d'oro/:path/
+    permalink: /albo-doro/:path/
   Partecipanti:
     output: true
-    permalink: /Partecipanti/:path/
+    permalink: /partecipanti/:path/
   Contatti:
     output: true
-    permalink: /Contatti/:path/
+    permalink: /contatti/:path/
 
 
 # These settings control how pages and collections are included in the site
