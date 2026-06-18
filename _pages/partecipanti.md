@@ -12,7 +12,7 @@ L'elenco ha carattere puramente storico e raccoglie tutti i giocatori che hanno 
     <tr>
       <th>Nome</th>
       <th>Braccio</th>
-      <th>Anno di nascita</th>
+      <th>Classe</th>
       <th>Genere</th>
     </tr>
   </thead>
