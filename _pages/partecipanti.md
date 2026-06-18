@@ -20,7 +20,11 @@ In questa sezione sono riportati tutti i partecipanti che hanno preso parte ad a
   <tbody>
     {% for player in site.data.players %}
     <tr>
-      <td>{{ player.nome }}</td>
+      <td>
+        <a href="/giocatore/?id={{ player.slug }}">
+          {{ player.nome }}
+        </a>
+      </td>
       <td>{{ player.braccio }}</td>
       <td>{{ player.anno }}</td>
       <td>{{ player.genere }}</td>
