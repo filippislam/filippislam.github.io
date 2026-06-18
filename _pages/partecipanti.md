@@ -4,6 +4,8 @@ permalink: /partecipanti/
 author_profile: true
 ---
 
+## Elenco Partecipanti
+
 In questa sezione sono riportati tutti i partecipanti che hanno preso parte ad almeno un'edizione del Filippi Slam nel corso degli anni.<br>
 
 <table>
