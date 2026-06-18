@@ -10,7 +10,7 @@ author_profile: true
     <img id="player-foto"
          src=""
          alt=""
-         style="max-width:250px; border-radius:10px;">
+         style="max-width:250px; border-radius:10px; display:none;">
   </div>
   <h2 id="player-name"></h2>
 
@@ -39,11 +39,13 @@ author_profile: true
     document.getElementById("player-genere").textContent = player.genere;
     document.getElementById("player-descrizione").textContent = player.descrizione;
   
-    document.getElementById("player-foto").src =
-      "/images/players_images/" + player.foto;
+    if (player.foto) {
+      const img = document.getElementById("player-foto");
+      img.src = "/images/players_images/" + player.foto;
+      img.alt = player.nome;
+      img.style.display = "block";
+    }
   
-    document.getElementById("player-foto").alt =
-      player.nome;
   } else {
     document.getElementById("player-page").innerHTML =
       "<p>Giocatore non trovato.</p>";
