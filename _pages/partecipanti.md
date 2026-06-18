@@ -4,7 +4,8 @@ permalink: /partecipanti/
 author_profile: true
 ---
 
-In questa sezione sono riportati tutti i partecipanti che hanno preso parte ad almeno un'edizione del Filippi Slam nel corso degli anni. L'elenco ha carattere puramente storico e raccoglie tutti i giocatori che hanno contribuito a rendere il torneo ciò che è oggi, indipendentemente dai risultati ottenuti in campo. Per consultare i vincitori delle varie edizioni è possibile fare riferimento all'Albo d'Oro.
+In questa sezione sono riportati tutti i partecipanti che hanno preso parte ad almeno un'edizione del Filippi Slam nel corso degli anni.<br>
+L'elenco ha carattere puramente storico e raccoglie tutti i giocatori che hanno contribuito a rendere il torneo ciò che è oggi, indipendentemente dai risultati ottenuti in campo. Per consultare i vincitori delle varie edizioni è possibile fare riferimento all'Albo d'Oro.
 
 <table>
   <thead>
