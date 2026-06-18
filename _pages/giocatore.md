@@ -12,7 +12,7 @@ author_profile: true
   <p><strong>Classe:</strong> <span id="player-anno"></span></p>
   <p><strong>Genere:</strong> <span id="player-genere"></span></p>
 
-  <h3>Descrizione</h3>
+  <h3>Descrizione:</h3>
   <p id="player-descrizione"></p>
 </div>
 
