@@ -5,6 +5,13 @@ author_profile: true
 ---
 
 <div id="player-page">
+
+  <div style="float:right; margin-left:20px; margin-bottom:20px;">
+    <img id="player-foto"
+         src=""
+         alt=""
+         style="max-width:250px; border-radius:10px;">
+  </div>
   <h2 id="player-name"></h2>
 
   <p><strong>Nome:</strong> <span id="player-nome"></span></p>
@@ -31,7 +38,14 @@ author_profile: true
     document.getElementById("player-anno").textContent = player.anno;
     document.getElementById("player-genere").textContent = player.genere;
     document.getElementById("player-descrizione").textContent = player.descrizione;
+  
+    document.getElementById("player-foto").src =
+      "/images/players_images/" + player.foto;
+  
+    document.getElementById("player-foto").alt =
+      player.nome;
   } else {
-    document.getElementById("player-page").innerHTML = "<p>Giocatore non trovato.</p>";
+    document.getElementById("player-page").innerHTML =
+      "<p>Giocatore non trovato.</p>";
   }
 </script>
