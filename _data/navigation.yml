@@ -34,9 +34,6 @@
 
 
 main:
-  - title: "Storia"
-    url: /storia/
-
   - title: "Edizioni"
     url: /edizioni/
 
@@ -45,6 +42,9 @@ main:
 
   - title: "Partecipanti"
     url: /partecipanti/
+
+  - title: "Storia"
+    url: /storia/
 
   - title: "Contatti"
     url: /contatti/
