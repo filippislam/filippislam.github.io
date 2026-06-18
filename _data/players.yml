@@ -8,21 +8,27 @@
   
 
 - nome: Luca Filippi
+  slug: luca-filippi
   braccio: SX
   anno: 1999
   genere: M
+  foto: luca-filippi_foto.jpg
   descrizione: ajjaja
 
 - nome: Nicolo Belè
+  slug: nicolo-bele
   braccio: DX
   anno: 2001
   genere: M
+  foto: nicolo-bele_foto.jpg
   descrizione: ajjaja
 
 - nome: Davide Casella
+  slug: davide-casella
   braccio: DX
   anno: 1999
   genere: M
+  foto: davide-casella_foto.jpg
   descrizione: ajjaja
 
 - nome: Leonardo Forigo
