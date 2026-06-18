@@ -12,7 +12,7 @@
   braccio: SX
   anno: 1999
   genere: M
-  foto: luca-filippi_foto.jpg
+  foto: luca_filippi_foto.jpg
   descrizione: ajjaja
 
 - nome: Nicolo Belè
@@ -20,7 +20,7 @@
   braccio: DX
   anno: 2001
   genere: M
-  foto: nicolo-bele_foto.jpg
+  foto: nicolo_bele_foto.jpg
   descrizione: ajjaja
 
 - nome: Davide Casella
@@ -28,65 +28,85 @@
   braccio: DX
   anno: 1999
   genere: M
-  foto: davide-casella_foto.jpg
+  foto: davide_casella_foto.jpg
   descrizione: ajjaja
 
 - nome: Leonardo Forigo
+  slug: leonardo-forigo
   braccio: DX
   anno: 1997
   genere: M
+  foto: leonardo_forigo_foto.jpg
   descrizione: ajjaja
 
 - nome: Denis Camilotto
+  slug: denis-camilotto
   braccio: DX
   anno: 2001
   genere: M
+  foto: denis_camilotto_foto.jpg
   descrizione: ajjaja
 
 - nome: Alessandro Furia
+  slug: alessandro-furia
   braccio: SX
   anno: 1999
   genere: M
+  foto: alessandro_furia_foto.jpg
   descrizione: ajjaja
 
 - nome: Matteo Farinazzo
+  slug: matteo-farinazzo
   braccio: DX
   anno: 2000
   genere: M
+  foto: matteo_farinazzo_foto.jpg
   descrizione: ajjaja
 
 - nome: Noemi Morandini
+  slug: noemi-morandini
   braccio: DX
   anno: 1999
   genere: F
+  foto: noemi_morandini_foto.jpg
   descrizione: ajjaja
 
 - nome: Lorenzo Gamba
+  slug: lorenzo-gamba
   braccio: DX
   anno: 1999
   genere: M
+  foto: lorenzo_gamba_foto.jpg
   descrizione: ajjaja
 
 - nome: Leonardo Mereghetti
+  slug: leonardo-mereghetti
   braccio: DX
   anno: 20010
   genere: M
+  foto: leonardo_mereghetti_foto.jpg
   descrizione: ajjaja
 
 - nome: Matteo Bertolaso
+  slug: matteo-bertolaso
   braccio: DX
   anno: 2001
   genere: M
+  foto: matteo_bertolaso_foto.jpg
   descrizione: ajjaja
 
 - nome: Leonardo R
+  slug: laonardo-r
   braccio: DX
   anno: ???
   genere: M
+  foto: laonardo_r_foto.jpg
   descrizione: ajjaja
 
 - nome: Chiara ???
+  slug: chiara-rr
   braccio: DX
   anno: ???
   genere: F
+  foto: chiara_rr_foto.jpg
   descrizione: ajjaja
