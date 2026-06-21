@@ -1,0 +1,24 @@
+- nome: "Filippi Slam Winter Edition 2025"
+  slug: winter-2025
+  data: "2025-12-29"
+  luogo: "A.S.D. Tennis Alpo"
+  partite:
+    - giocatore_1: matteo-filippi
+      giocatore_2: luca-filippi
+      game_1: 6
+      game_2: 4
+
+    - giocatore_1: matteo-filippi
+      giocatore_2: mario-rossi
+      game_1: 3
+      game_2: 3
+
+- nome: "Filippi Slam Summer Edition 2026"
+  slug: summer-2026
+  data: "2026-06-13"
+  luogo: "A.S.D. Tennis Alpo"
+  partite:
+    - giocatore_1: matteo-filippi
+      giocatore_2: luca-filippi
+      game_1: 5
+      game_2: 7
