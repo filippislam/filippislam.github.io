@@ -1,5 +1,5 @@
 - nome: "Filippi Slam Winter Edition 2025"
-  slug: winter-2025
+  slug: "2025_winter"
   data: "2025-12-29"
   luogo: "A.S.D. Tennis Alpo"
   partecipanti:
@@ -22,7 +22,7 @@
       game_2: 3
 
 - nome: "Filippi Slam Summer Edition 2026"
-  slug: summer-2026
+  slug: "2026_summer"
   data: "2026-06-13"
   luogo: "A.S.D. Tennis Alpo"
   partecipanti:
