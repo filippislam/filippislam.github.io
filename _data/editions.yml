@@ -2,6 +2,14 @@
   slug: winter-2025
   data: "2025-12-29"
   luogo: "A.S.D. Tennis Alpo"
+  partecipanti:
+    - matteo-filippi
+    - luca-filippi
+    - mario-rossi
+  classifica:
+    - matteo-filippi
+    - luca-filippi
+    - mario-rossi
   partite:
     - giocatore_1: matteo-filippi
       giocatore_2: luca-filippi
@@ -17,6 +25,12 @@
   slug: summer-2026
   data: "2026-06-13"
   luogo: "A.S.D. Tennis Alpo"
+  partecipanti:
+    - matteo-filippi
+    - luca-filippi
+  classifica:
+    - matteo-filippi
+    - luca-filippi
   partite:
     - giocatore_1: matteo-filippi
       giocatore_2: luca-filippi
