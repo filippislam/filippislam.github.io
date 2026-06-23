@@ -8,9 +8,9 @@ author_profile: true
 
 <h2>{{ edition.nome }}</h2>
 
-<p><strong>Data:</strong> {{ edition.data }}</p>
-<p><strong>Luogo:</strong> {{ edition.luogo }}</p>
-<p><strong>Partecipanti:</strong> {{ edition.partecipanti.size }}</p>
+<p style="margin: 2px 0;"><strong>Data:</strong> {{ edition.data }}</p>
+<p style="margin: 2px 0;"><strong>Luogo:</strong> {{ edition.luogo }}</p>
+<p style="margin: 2px 0;"><strong>Partecipanti:</strong> {{ edition.partecipanti.size }}</p>
 
 <h3>Introduzione</h3>
 <p>
