@@ -153,8 +153,8 @@
   
       - giocatore_1: luca-filippi
         giocatore_2: matteo-filippi
-        game_1: 8
-        game_2: 2
+        game_1: 2
+        game_2: 8
 
     Girone B:
       - giocatore_1: leonardo-forigo
@@ -164,8 +164,8 @@
   
       - giocatore_1: alessandro-furia
         giocatore_2: denis-camilotto
-        game_1: 6
-        game_2: 4
+        game_1: 4
+        game_2: 6
 
       - giocatore_1: leonardo-forigo
         giocatore_2: alessandro-furia
@@ -173,7 +173,7 @@
         game_2: 4
   
       - giocatore_1: matteo-farinazzo
-        giocatore_2: alessandro-furia
+        giocatore_2: denis-camilotto
         game_1: 4
         game_2: 3
 
