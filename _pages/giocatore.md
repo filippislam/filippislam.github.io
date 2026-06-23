@@ -6,81 +6,82 @@ author_profile: true
 
 <div id="player-page">
 
-  <div style="float:right; margin-left:20px; margin-bottom:20px;">
-    <img id="player-foto"
-         src=""
-         alt=""
-         style="max-width:250px; border-radius:10px; display:none;">
-  </div>
+<div style="float:right; margin-left:20px; margin-bottom:20px;">
+<img id="player-foto"
+     src=""
+     alt=""
+     style="max-width:250px; border-radius:10px; display:none;">
+</div>
 
-  <h2 id="player-name"></h2>
+<h2 id="player-name"></h2>
 
-  <p><strong>Nome:</strong> <span id="player-nome"></span></p>
-  <p><strong>Braccio:</strong> <span id="player-braccio"></span></p>
-  <p><strong>Classe:</strong> <span id="player-anno"></span></p>
-  <p><strong>Genere:</strong> <span id="player-genere"></span></p>
+<p><strong>Nome:</strong> <span id="player-nome"></span></p>
+<p><strong>Braccio:</strong> <span id="player-braccio"></span></p>
+<p><strong>Classe:</strong> <span id="player-anno"></span></p>
+<p><strong>Genere:</strong> <span id="player-genere"></span></p>
 
-  <h3>Descrizione:</h3>
-  <p id="player-descrizione"></p>
+<h3>Descrizione:</h3>
+<p id="player-descrizione"></p>
 
-  <h3>Statistiche complessive</h3>
+<h3>Statistiche complessive</h3>
 
-  <table>
-    <tr><td><strong>Edizioni giocate</strong></td><td id="stat-edizioni"></td></tr>
-    <tr><td><strong>Partite giocate</strong></td><td id="stat-partite"></td></tr>
-    <tr><td><strong>Vittorie</strong></td><td id="stat-vittorie"></td></tr>
-    <tr><td><strong>Pareggi</strong></td><td id="stat-pareggi"></td></tr>
-    <tr><td><strong>Sconfitte</strong></td><td id="stat-sconfitte"></td></tr>
-    <tr><td><strong>Game vinti</strong></td><td id="stat-game-vinti"></td></tr>
-    <tr><td><strong>Game giocati</strong></td><td id="stat-game-giocati"></td></tr>
-    <tr><td><strong>Differenza game</strong></td><td id="stat-differenza-game"></td></tr>
-  </table>
+<table>
+<tr><td><strong>Edizioni giocate</strong></td><td id="stat-edizioni"></td></tr>
+<tr><td><strong>Partite giocate</strong></td><td id="stat-partite"></td></tr>
+<tr><td><strong>Vittorie</strong></td><td id="stat-vittorie"></td></tr>
+<tr><td><strong>Pareggi</strong></td><td id="stat-pareggi"></td></tr>
+<tr><td><strong>Sconfitte</strong></td><td id="stat-sconfitte"></td></tr>
+<tr><td><strong>Game vinti</strong></td><td id="stat-game-vinti"></td></tr>
+<tr><td><strong>Game giocati</strong></td><td id="stat-game-giocati"></td></tr>
+<tr><td><strong>Differenza game</strong></td><td id="stat-differenza-game"></td></tr>
+</table>
 
-  <h3>Partite disputate</h3>
-  <div id="storico-partite"></div>
+<h3>Partite disputate</h3>
+<div id="storico-partite"></div>
 
 </div>
 
 <script>
-  const players = {{ site.data.players | jsonify }};
-  const editions = {{ site.data.editions | jsonify }};
+const players = {{ site.data.players | jsonify }};
+const editions = {{ site.data.editions | jsonify }};
 
-  const params = new URLSearchParams(window.location.search);
-  const id = params.get("id");
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
 
-  const player = players.find(p => p.slug === id);
+const player = players.find(p => p.slug === id);
 
-  if (player) {
-    document.getElementById("player-name").textContent = player.nome;
-    document.getElementById("player-nome").textContent = player.nome;
-    document.getElementById("player-braccio").textContent = player.braccio;
-    document.getElementById("player-anno").textContent = player.anno;
-    document.getElementById("player-genere").textContent = player.genere;
-    document.getElementById("player-descrizione").textContent = player.descrizione;
+if (player) {
+  document.getElementById("player-name").textContent = player.nome;
+  document.getElementById("player-nome").textContent = player.nome;
+  document.getElementById("player-braccio").textContent = player.braccio;
+  document.getElementById("player-anno").textContent = player.anno;
+  document.getElementById("player-genere").textContent = player.genere;
+  document.getElementById("player-descrizione").textContent = player.descrizione;
 
-    if (player.foto) {
-      const img = document.getElementById("player-foto");
-      img.src = "/images/players_images/" + player.foto;
-      img.alt = player.nome;
-      img.style.display = "block";
-    }
+  if (player.foto) {
+    const img = document.getElementById("player-foto");
+    img.src = "/images/players_images/" + player.foto;
+    img.alt = player.nome;
+    img.style.display = "block";
+  }
 
-    let stats = {
-      edizioni: new Set(),
-      partite: 0,
-      vittorie: 0,
-      pareggi: 0,
-      sconfitte: 0,
-      gameVinti: 0,
-      gamePersi: 0
-    };
+  let stats = {
+    edizioni: new Set(),
+    partite: 0,
+    vittorie: 0,
+    pareggi: 0,
+    sconfitte: 0,
+    gameVinti: 0,
+    gamePersi: 0
+  };
 
-    let storicoHtml = "";
+  let storicoHtml = "";
 
-    editions.forEach(edition => {
-      let partiteEdizione = [];
+  editions.forEach(edition => {
+    let partiteEdizione = [];
 
-      edition.partite.forEach(match => {
+    Object.entries(edition.partite).forEach(([fase, partiteFase]) => {
+      partiteFase.forEach(match => {
         const isPlayer1 = match.giocatore_1 === id;
         const isPlayer2 = match.giocatore_2 === id;
 
@@ -111,48 +112,51 @@ author_profile: true
           }
 
           partiteEdizione.push(`
-            <tr>
-              <td>${opponent ? opponent.nome : opponentSlug}</td>
-              <td>${gameFatti}-${gameSubiti}</td>
-              <td>${risultato}</td>
-            </tr>
+<tr>
+<td>${fase}</td>
+<td>${opponent ? opponent.nome : opponentSlug}</td>
+<td>${gameFatti}-${gameSubiti}</td>
+<td>${risultato}</td>
+</tr>
           `);
         }
       });
-
-      if (partiteEdizione.length > 0) {
-        storicoHtml += `
-          <h4>${edition.nome}</h4>
-          <table>
-            <thead>
-              <tr>
-                <th>Avversario</th>
-                <th>Risultato</th>
-                <th>Esito</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${partiteEdizione.join("")}
-            </tbody>
-          </table>
-        `;
-      }
     });
 
-    document.getElementById("stat-edizioni").textContent = stats.edizioni.size;
-    document.getElementById("stat-partite").textContent = stats.partite;
-    document.getElementById("stat-vittorie").textContent = stats.vittorie;
-    document.getElementById("stat-pareggi").textContent = stats.pareggi;
-    document.getElementById("stat-sconfitte").textContent = stats.sconfitte;
-    document.getElementById("stat-game-vinti").textContent = stats.gameVinti;
-    document.getElementById("stat-game-giocati").textContent = stats.gameVinti + stats.gamePersi;
-    document.getElementById("stat-differenza-game").textContent = stats.gameVinti - stats.gamePersi;
+    if (partiteEdizione.length > 0) {
+      storicoHtml += `
+<h4>${edition.nome}</h4>
+<table>
+<thead>
+<tr>
+<th>Fase</th>
+<th>Avversario</th>
+<th>Risultato</th>
+<th>Esito</th>
+</tr>
+</thead>
+<tbody>
+${partiteEdizione.join("")}
+</tbody>
+</table>
+      `;
+    }
+  });
 
-    document.getElementById("storico-partite").innerHTML =
-      storicoHtml || "<p>Nessuna partita registrata.</p>";
+  document.getElementById("stat-edizioni").textContent = stats.edizioni.size;
+  document.getElementById("stat-partite").textContent = stats.partite;
+  document.getElementById("stat-vittorie").textContent = stats.vittorie;
+  document.getElementById("stat-pareggi").textContent = stats.pareggi;
+  document.getElementById("stat-sconfitte").textContent = stats.sconfitte;
+  document.getElementById("stat-game-vinti").textContent = stats.gameVinti;
+  document.getElementById("stat-game-giocati").textContent = stats.gameVinti + stats.gamePersi;
+  document.getElementById("stat-differenza-game").textContent = stats.gameVinti - stats.gamePersi;
 
-  } else {
-    document.getElementById("player-page").innerHTML =
-      "<p>Giocatore non trovato.</p>";
-  }
+  document.getElementById("storico-partite").innerHTML =
+    storicoHtml || "<p>Nessuna partita registrata.</p>";
+
+} else {
+  document.getElementById("player-page").innerHTML =
+    "<p>Giocatore non trovato.</p>";
+}
 </script>
