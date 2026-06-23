@@ -10,7 +10,7 @@ author_profile: true
 <img id="player-foto"
      src=""
      alt=""
-     style="max-width:250px; border-radius:10px; display:none;">
+     style="width:200px; border-radius:10px; display:none;">
 </div>
 
 <h2 id="player-name"></h2>
