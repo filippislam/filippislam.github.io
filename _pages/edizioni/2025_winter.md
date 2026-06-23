@@ -32,28 +32,39 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
 
 <h3>Partite</h3>
 
-<table>
-  <thead>
-    <tr>
-      <th>Giocatore 1</th>
-      <th>Giocatore 2</th>
-      <th>Risultato</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for match in edition.partite %}
-      {% assign p1 = site.data.players | where: "slug", match.giocatore_1 | first %}
-      {% assign p2 = site.data.players | where: "slug", match.giocatore_2 | first %}
+{% for fase in edition.partite %}
+  {% assign nome_fase = fase[0] %}
+  {% assign partite_fase = fase[1] %}
 
+  {% if nome_fase == "Girone A" %}
+    <h4>Fase a gironi</h4>
+  {% endif %}
+
+  <h4>{{ nome_fase }}</h4>
+
+  <table>
+    <thead>
       <tr>
-        <td>
-          <a href="/giocatore/?id={{ p1.slug }}">{{ p1.nome }}</a>
-        </td>
-        <td>
-          <a href="/giocatore/?id={{ p2.slug }}">{{ p2.nome }}</a>
-        </td>
-        <td>{{ match.game_1 }}-{{ match.game_2 }}</td>
+        <th>Giocatore 1</th>
+        <th>Giocatore 2</th>
+        <th>Risultato</th>
       </tr>
-    {% endfor %}
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      {% for match in partite_fase %}
+        {% assign p1 = site.data.players | where: "slug", match.giocatore_1 | first %}
+        {% assign p2 = site.data.players | where: "slug", match.giocatore_2 | first %}
+
+        <tr>
+          <td>
+            <a href="/giocatore/?id={{ p1.slug }}">{{ p1.nome }}</a>
+          </td>
+          <td>
+            <a href="/giocatore/?id={{ p2.slug }}">{{ p2.nome }}</a>
+          </td>
+          <td>{{ match.game_1 }}-{{ match.game_2 }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
