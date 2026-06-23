@@ -58,7 +58,95 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
 {% endfor %}
 </tbody>
 </table>
-{% endif %}
+<h4>Classifica Girone A</h4>
+
+<table>
+<thead>
+<tr>
+<th>Posizione</th>
+<th>Giocatore</th>
+<th>Punti</th>
+<th>DG</th>
+<th>GV</th>
+</tr>
+</thead>
+<tbody id="classifica-girone-a"></tbody>
+</table>
+
+<script>
+(function() {
+  const players = {{ site.data.players | jsonify }};
+  const matches = {{ partite_fase | jsonify }};
+
+  let stats = {};
+
+  matches.forEach(match => {
+    [match.giocatore_1, match.giocatore_2].forEach(slug => {
+      if (!stats[slug]) {
+        stats[slug] = {
+          slug: slug,
+          punti: 0,
+          gameVinti: 0,
+          gamePersi: 0,
+          vittorieContro: {}
+        };
+      }
+    });
+
+    const p1 = stats[match.giocatore_1];
+    const p2 = stats[match.giocatore_2];
+
+    p1.gameVinti += match.game_1;
+    p1.gamePersi += match.game_2;
+    p2.gameVinti += match.game_2;
+    p2.gamePersi += match.game_1;
+
+    if (match.game_1 > match.game_2) {
+      p1.punti += 3;
+      p1.vittorieContro[match.giocatore_2] = true;
+    } else if (match.game_1 < match.game_2) {
+      p2.punti += 3;
+      p2.vittorieContro[match.giocatore_1] = true;
+    } else {
+      p1.punti += 1;
+      p2.punti += 1;
+    }
+  });
+
+  let classifica = Object.values(stats);
+
+  classifica.sort((a, b) => {
+    if (b.punti !== a.punti) return b.punti - a.punti;
+
+    if (a.vittorieContro[b.slug]) return -1;
+    if (b.vittorieContro[a.slug]) return 1;
+
+    const dgA = a.gameVinti - a.gamePersi;
+    const dgB = b.gameVinti - b.gamePersi;
+    if (dgB !== dgA) return dgB - dgA;
+
+    return b.gameVinti - a.gameVinti;
+  });
+
+  const tbody = document.getElementById("classifica-girone-a");
+
+  classifica.forEach((p, index) => {
+    const player = players.find(x => x.slug === p.slug);
+    const nome = player ? player.nome : p.slug;
+    const dg = p.gameVinti - p.gamePersi;
+
+    tbody.innerHTML += `
+<tr>
+<td>${index + 1}</td>
+<td><a href="/giocatore/?id=${p.slug}">${nome}</a></td>
+<td>${p.punti}</td>
+<td>${dg}</td>
+<td>${p.gameVinti}</td>
+</tr>
+    `;
+  });
+})();
+</script>{% endif %}
 
 {% if nome_fase == "Girone B" %}
 <h4>Girone B</h4>
@@ -82,9 +170,99 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
 {% endfor %}
 </tbody>
 </table>
+<h4>Classifica Girone B</h4>
+
+<table>
+<thead>
+<tr>
+<th>Posizione</th>
+<th>Giocatore</th>
+<th>Punti</th>
+<th>DG</th>
+<th>GV</th>
+</tr>
+</thead>
+<tbody id="classifica-girone-b"></tbody>
+</table>
+
+<script>
+(function() {
+  const players = {{ site.data.players | jsonify }};
+  const matches = {{ partite_fase | jsonify }};
+
+  let stats = {};
+
+  matches.forEach(match => {
+    [match.giocatore_1, match.giocatore_2].forEach(slug => {
+      if (!stats[slug]) {
+        stats[slug] = {
+          slug: slug,
+          punti: 0,
+          gameVinti: 0,
+          gamePersi: 0,
+          vittorieContro: {}
+        };
+      }
+    });
+
+    const p1 = stats[match.giocatore_1];
+    const p2 = stats[match.giocatore_2];
+
+    p1.gameVinti += match.game_1;
+    p1.gamePersi += match.game_2;
+    p2.gameVinti += match.game_2;
+    p2.gamePersi += match.game_1;
+
+    if (match.game_1 > match.game_2) {
+      p1.punti += 3;
+      p1.vittorieContro[match.giocatore_2] = true;
+    } else if (match.game_1 < match.game_2) {
+      p2.punti += 3;
+      p2.vittorieContro[match.giocatore_1] = true;
+    } else {
+      p1.punti += 1;
+      p2.punti += 1;
+    }
+  });
+
+  let classifica = Object.values(stats);
+
+  classifica.sort((a, b) => {
+    if (b.punti !== a.punti) return b.punti - a.punti;
+
+    if (a.vittorieContro[b.slug]) return -1;
+    if (b.vittorieContro[a.slug]) return 1;
+
+    const dgA = a.gameVinti - a.gamePersi;
+    const dgB = b.gameVinti - b.gamePersi;
+    if (dgB !== dgA) return dgB - dgA;
+
+    return b.gameVinti - a.gameVinti;
+  });
+
+  const tbody = document.getElementById("classifica-girone-b");
+
+  classifica.forEach((p, index) => {
+    const player = players.find(x => x.slug === p.slug);
+    const nome = player ? player.nome : p.slug;
+    const dg = p.gameVinti - p.gamePersi;
+
+    tbody.innerHTML += `
+<tr>
+<td>${index + 1}</td>
+<td><a href="/giocatore/?id=${p.slug}">${nome}</a></td>
+<td>${p.punti}</td>
+<td>${dg}</td>
+<td>${p.gameVinti}</td>
+</tr>
+    `;
+  });
+})();
+</script>
 {% endif %}
 
 {% endfor %}
+
 
 {% if edition.partite["Semifinali"] %}
   <h3>Semifinali</h3>
