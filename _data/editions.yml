@@ -103,13 +103,95 @@
   data: "13 giugno 2026"
   luogo: "A.S.D. Tennis Alpo"
   partecipanti:
-    - matteo-filippi
     - luca-filippi
+    - noemi-morandini
+    - chiara-morandini
+    - leonardo-mereghetti
+    - matteo-filippi
+    - alessandro-furia
+    - lorenzo-gamba
+    - leonardo-reame
   classifica:
+    - lorenzo-gamba
     - matteo-filippi
     - luca-filippi
+    - leonardo-mereghetti
   partite:
-    - giocatore_1: matteo-filippi
-      giocatore_2: luca-filippi
-      game_1: 5
-      game_2: 7
+    Girone A:
+      - giocatore_1: luca-filippi
+        giocatore_2: noemi-morandini
+        game_1: 6
+        game_2: 4
+  
+      - giocatore_1: chiara-morandini
+        giocatore_2: leonardo-mereghetti
+        game_1: 3
+        game_2: 3
+
+      - giocatore_1: luca-filippi
+        giocatore_2: chiara-morandini
+        game_1: 6
+        game_2: 4
+  
+      - giocatore_1: noemi-morandini
+        giocatore_2: leonardo-mereghetti
+        game_1: 3
+        game_2: 3
+
+      - giocatore_1: luca-filippi
+        giocatore_2: leonardo-mereghetti
+        game_1: 6
+        game_2: 4
+  
+      - giocatore_1: noemi-morandini
+        giocatore_2: chiara-morandini
+        game_1: 3
+        game_2: 3
+
+    Girone B:
+      - giocatore_1: matteo-filippi
+        giocatore_2: alessandro-furia
+        game_1: 6
+        game_2: 4
+  
+      - giocatore_1: lorenzo-gamba
+        giocatore_2: leonardo-reame
+        game_1: 3
+        game_2: 3
+
+      - giocatore_1: matteo-filippi
+        giocatore_2: lorenzo-gamba
+        game_1: 6
+        game_2: 4
+  
+      - giocatore_1: alessandro-furia
+        giocatore_2: leonardo-reame
+        game_1: 3
+        game_2: 3
+
+      - giocatore_1: matteo-filippi
+        giocatore_2: leonardo-reame
+        game_1: 6
+        game_2: 4
+  
+      - giocatore_1: alessandro-furia
+        giocatore_2: lorenzo-gamba
+        game_1: 3
+        game_2: 3
+
+    Semifinali:
+      - giocatore_1: matteo-filippi
+        giocatore_2: luca-filippi
+        game_1: 6
+        game_2: 4
+  
+      - giocatore_1: lorenzo-gamba
+        giocatore_2: leonardo-mereghetti
+        game_1: 3
+        game_2: 3
+
+    Finale:
+      - giocatore_1: matteo-filippi
+        giocatore_2: lorenzo-gamba
+        game_1: 4
+        game_2: 6
