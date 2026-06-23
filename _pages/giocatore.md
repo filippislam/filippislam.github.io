@@ -31,8 +31,10 @@ author_profile: true
 <tr><td><strong>Vittorie</strong></td><td id="stat-vittorie"></td></tr>
 <tr><td><strong>Pareggi</strong></td><td id="stat-pareggi"></td></tr>
 <tr><td><strong>Sconfitte</strong></td><td id="stat-sconfitte"></td></tr>
+<tr><td><strong>Percentuale vittorie</strong></td><td id="stat-percentuale-vittorie"></td></tr>
 <tr><td><strong>Game vinti</strong></td><td id="stat-game-vinti"></td></tr>
 <tr><td><strong>Game giocati</strong></td><td id="stat-game-giocati"></td></tr>
+<tr><td><strong>Percentuale game vinti</strong></td><td id="stat-percentuale-game-vinti"></td></tr>
 <tr><td><strong>Differenza game</strong></td><td id="stat-differenza-game"></td></tr>
 </table>
 
@@ -148,8 +150,22 @@ ${partiteEdizione.join("")}
   document.getElementById("stat-vittorie").textContent = stats.vittorie;
   document.getElementById("stat-pareggi").textContent = stats.pareggi;
   document.getElementById("stat-sconfitte").textContent = stats.sconfitte;
+     const percentualeVittorie = stats.partite > 0
+       ? ((stats.vittorie / stats.partite) * 100).toFixed(1)
+       : "0.0";
+     
+     document.getElementById("stat-percentuale-vittorie").textContent =
+       percentualeVittorie + "%";
   document.getElementById("stat-game-vinti").textContent = stats.gameVinti;
   document.getElementById("stat-game-giocati").textContent = stats.gameVinti + stats.gamePersi;
+     const gameGiocati = stats.gameVinti + stats.gamePersi;
+     
+     const percentualeGameVinti = gameGiocati > 0
+       ? ((stats.gameVinti / gameGiocati) * 100).toFixed(1)
+       : "0.0";
+     
+     document.getElementById("stat-percentuale-game-vinti").textContent =
+       percentualeGameVinti + "%";
   document.getElementById("stat-differenza-game").textContent = stats.gameVinti - stats.gamePersi;
 
   document.getElementById("storico-partite").innerHTML =
