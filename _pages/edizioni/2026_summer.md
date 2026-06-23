@@ -4,7 +4,7 @@ permalink: /edizioni/2026_summer/
 author_profile: true
 ---
 
-{% assign edition = site.data.editions | where: "slug", "2025_winter" | first %}
+{% assign edition = site.data.editions | where: "slug", "2026_summer" | first %}
 
 <h2>{{ edition.nome }}</h2>
 
