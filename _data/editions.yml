@@ -26,17 +26,17 @@
       - giocatore_1: chiara-morandini
         giocatore_2: leonardo-mereghetti
         game_1: 3
-        game_2: 3
+        game_2: 5
 
       - giocatore_1: luca-filippi
         giocatore_2: chiara-morandini
         game_1: 6
-        game_2: 4
+        game_2: 5
   
       - giocatore_1: noemi-morandini
         giocatore_2: leonardo-mereghetti
-        game_1: 3
-        game_2: 3
+        game_1: 2
+        game_2: 5
 
       - giocatore_1: luca-filippi
         giocatore_2: leonardo-mereghetti
@@ -46,23 +46,23 @@
       - giocatore_1: noemi-morandini
         giocatore_2: chiara-morandini
         game_1: 3
-        game_2: 3
+        game_2: 1
 
     Girone B:
       - giocatore_1: matteo-filippi
         giocatore_2: alessandro-furia
         game_1: 6
-        game_2: 4
+        game_2: 5
   
       - giocatore_1: lorenzo-gamba
         giocatore_2: leonardo-reame
-        game_1: 3
+        game_1: 4
         game_2: 3
 
       - giocatore_1: matteo-filippi
         giocatore_2: lorenzo-gamba
-        game_1: 6
-        game_2: 4
+        game_1: 2
+        game_2: 6
   
       - giocatore_1: alessandro-furia
         giocatore_2: leonardo-reame
@@ -76,7 +76,7 @@
   
       - giocatore_1: alessandro-furia
         giocatore_2: lorenzo-gamba
-        game_1: 3
+        game_1: 5
         game_2: 3
 
     Semifinali:
@@ -87,7 +87,7 @@
   
       - giocatore_1: lorenzo-gamba
         giocatore_2: leonardo-mereghetti
-        game_1: 3
+        game_1: 5
         game_2: 3
 
     Finale:
