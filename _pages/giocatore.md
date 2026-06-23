@@ -15,10 +15,10 @@ author_profile: true
 
 <h2 id="player-name"></h2>
 
-<p><strong>Nome:</strong> <span id="player-nome"></span></p>
-<p><strong>Braccio:</strong> <span id="player-braccio"></span></p>
-<p><strong>Classe:</strong> <span id="player-anno"></span></p>
-<p><strong>Genere:</strong> <span id="player-genere"></span></p>
+<p style="margin:2px 0;"><strong>Nome:</strong> <span id="player-nome"></span></p>
+<p style="margin:2px 0;"><strong>Braccio:</strong> <span id="player-braccio"></span></p>
+<p style="margin:2px 0;"><strong>Classe:</strong> <span id="player-anno"></span></p>
+<p style="margin:2px 0;"><strong>Genere:</strong> <span id="player-genere"></span></p>
 
 <h3>Descrizione:</h3>
 <p id="player-descrizione"></p>
