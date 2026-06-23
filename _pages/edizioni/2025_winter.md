@@ -29,16 +29,15 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
     </li>
   {% endfor %}
 </ul>
-<h3>Partite</h3>
 
-<h2>Fase a gironi</h2>
+<h3>Fase a gironi</h3>
 
 {% for fase in edition.partite %}
 {% assign nome_fase = fase[0] %}
 {% assign partite_fase = fase[1] %}
 
 {% if nome_fase == "Girone A" %}
-<h3>Girone A</h3>
+<h4>Girone A</h4>
 <table>
 <thead>
 <tr>
@@ -62,7 +61,7 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
 {% endif %}
 
 {% if nome_fase == "Girone B" %}
-<h3>Girone B</h3>
+<h4>Girone B</h4>
 <table>
 <thead>
 <tr>
@@ -88,7 +87,7 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
 {% endfor %}
 
 {% if edition.partite["Semifinali"] %}
-  <h2>Semifinali</h2>
+  <h3>Semifinali</h3>
 
   <table>
     <thead>
@@ -114,7 +113,7 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
 {% endif %}
 
 {% if edition.partite["Finale"] %}
-  <h2>Finale</h2>
+  <h3>Finale</h3>
 
   <table>
     <thead>
