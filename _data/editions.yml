@@ -98,100 +98,139 @@
 
 
 
+
+
+
+
 - nome: "Filippi Slam Summer Edition 2026"
   slug: "2026_summer"
   data: "13 giugno 2026"
   luogo: "A.S.D. Tennis Alpo"
   partecipanti:
+    - nicolo-bele
     - luca-filippi
-    - noemi-morandini
-    - chiara-morandini
-    - leonardo-mereghetti
     - matteo-filippi
+    - davide-casella
+    - leonardo-forigo
+    - matteo-farinazzo
     - alessandro-furia
+    - denis-camilotto
     - lorenzo-gamba
-    - leonardo-reame
-  classifica:
-    - lorenzo-gamba
-    - matteo-filippi
-    - luca-filippi
+    - noemi-morandini
     - leonardo-mereghetti
+    - matteo-bertolaso
+  classifica:
+    - leonardo-forigo
+    - matteo-filippi
+    - nicolo-bele
+    - matteo-farinazzo
   partite:
     Girone A:
-      - giocatore_1: luca-filippi
-        giocatore_2: noemi-morandini
-        game_1: 6
+      - giocatore_1: nicolo-bele
+        giocatore_2: luca-filippi
+        game_1: 5
         game_2: 4
   
-      - giocatore_1: chiara-morandini
-        giocatore_2: leonardo-mereghetti
-        game_1: 3
-        game_2: 3
+      - giocatore_1: matteo-filippi
+        giocatore_2: davide-casella
+        game_1: 6
+        game_2: 4
 
-      - giocatore_1: luca-filippi
-        giocatore_2: chiara-morandini
+      - giocatore_1: nicolo-bele
+        giocatore_2: matteo-filippi
         game_1: 6
-        game_2: 4
+        game_2: 5
   
-      - giocatore_1: noemi-morandini
-        giocatore_2: leonardo-mereghetti
-        game_1: 3
-        game_2: 3
+      - giocatore_1: luca-filippi
+        giocatore_2: davide-casella
+        game_1: 4
+        game_2: 6
 
-      - giocatore_1: luca-filippi
-        giocatore_2: leonardo-mereghetti
+      - giocatore_1: nicolo-bele
+        giocatore_2: davide-casella
         game_1: 6
         game_2: 4
   
-      - giocatore_1: noemi-morandini
-        giocatore_2: chiara-morandini
-        game_1: 3
-        game_2: 3
+      - giocatore_1: luca-filippi
+        giocatore_2: matteo-filippi
+        game_1: 8
+        game_2: 2
 
     Girone B:
-      - giocatore_1: matteo-filippi
+      - giocatore_1: leonardo-forigo
+        giocatore_2: matteo-farinazzo
+        game_1: 8
+        game_2: 2
+  
+      - giocatore_1: alessandro-furia
+        giocatore_2: denis-camilotto
+        game_1: 6
+        game_2: 4
+
+      - giocatore_1: leonardo-forigo
         giocatore_2: alessandro-furia
         game_1: 6
         game_2: 4
   
+      - giocatore_1: matteo-farinazzo
+        giocatore_2: alessandro-furia
+        game_1: 4
+        game_2: 3
+
+      - giocatore_1: leonardo-forigo
+        giocatore_2: denis-camilotto
+        game_1: 6
+        game_2: 5
+  
+      - giocatore_1: matteo-farinazzo
+        giocatore_2: alessandro-furia
+        game_1: 3
+        game_2: 3
+
+    Girone C:
       - giocatore_1: lorenzo-gamba
-        giocatore_2: leonardo-reame
-        game_1: 3
-        game_2: 3
-
-      - giocatore_1: matteo-filippi
-        giocatore_2: lorenzo-gamba
+        giocatore_2: noemi-morandini
         game_1: 6
-        game_2: 4
-  
-      - giocatore_1: alessandro-furia
-        giocatore_2: leonardo-reame
-        game_1: 3
         game_2: 3
-
-      - giocatore_1: matteo-filippi
-        giocatore_2: leonardo-reame
-        game_1: 6
-        game_2: 4
   
-      - giocatore_1: alessandro-furia
-        giocatore_2: lorenzo-gamba
-        game_1: 3
-        game_2: 3
+      - giocatore_1: leonardo-mereghetti
+        giocatore_2: matteo-bertolaso
+        game_1: 4
+        game_2: 6
 
-    Semifinali:
-      - giocatore_1: matteo-filippi
-        giocatore_2: luca-filippi
-        game_1: 6
-        game_2: 4
-  
       - giocatore_1: lorenzo-gamba
         giocatore_2: leonardo-mereghetti
         game_1: 3
-        game_2: 3
+        game_2: 5
+  
+      - giocatore_1: noemi-morandini
+        giocatore_2: matteo-bertolaso
+        game_1: 2
+        game_2: 6
+
+      - giocatore_1: lorenzo-gamba
+        giocatore_2: matteo-bertolaso
+        game_1: 4
+        game_2: 6
+  
+      - giocatore_1: noemi-morandini
+        giocatore_2: leonardo-mereghetti
+        game_1: 3
+        game_2: 5
+
+    Semifinali:
+      - giocatore_1: matteo-filippi
+        giocatore_2: matteo-bertolaso
+        game_1: 6
+        game_2: 4
+  
+      - giocatore_1: nicolo-bele
+        giocatore_2: leonardo-forigo
+        game_1: 3
+        game_2: 5
 
     Finale:
       - giocatore_1: matteo-filippi
-        giocatore_2: lorenzo-gamba
-        game_1: 4
-        game_2: 6
+        giocatore_2: leonardo-forigo
+        game_1: 5
+        game_2: 8
