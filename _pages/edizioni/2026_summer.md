@@ -1,5 +1,5 @@
 ---
-title: "Filippi Slam Summer Edition 2025"
+title: "Filippi Slam Summer Edition 2026"
 permalink: /edizioni/2026_summer/
 author_profile: true
 ---
