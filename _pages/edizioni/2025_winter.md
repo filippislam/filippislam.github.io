@@ -29,7 +29,7 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
     </li>
   {% endfor %}
 </ul>
-<h3>Partite</h3>
+<h3>Partiteee</h3>
 
 {% if edition.partite["Girone A"] or edition.partite["Girone B"] %}
   <h2>Fase a gironi</h2>
