@@ -19,10 +19,10 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
 
 <h3>Partecipanti</h3>
 
-<ul>
+<ul style="margin:0; padding-left:20px;">
   {% for player_slug in edition.partecipanti %}
     {% assign player = site.data.players | where: "slug", player_slug | first %}
-    <li>
+    <li style="margin-bottom:2px;">
       <a href="/giocatore/?id={{ player.slug }}">
         {{ player.nome }}
       </a>
