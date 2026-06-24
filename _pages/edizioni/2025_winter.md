@@ -315,3 +315,100 @@ Qui scrivi liberamente quello che vuoi su questa edizione.
     </tbody>
   </table>
 {% endif %}
+
+
+
+<h3>Foto dell'edizione</h3>
+
+{% assign edition_images = site.static_files | where_exp: "file", "file.path contains '/images/Edizioni/2026_summer/'" %}
+
+<div class="edition-carousel">
+  <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+
+  <div class="carousel-image-wrapper">
+    {% for image in edition_images %}
+      <img class="carousel-slide"
+           src="{{ image.path }}"
+           alt="Foto Filippi Slam"
+           style="display: {% if forloop.first %}block{% else %}none{% endif %};">
+    {% endfor %}
+  </div>
+
+  <button class="carousel-btn next" onclick="changeSlide(1)">&#10095;</button>
+</div>
+
+<p id="carousel-counter" style="text-align:center; margin-top:8px;"></p>
+
+<style>
+.edition-carousel {
+  position: relative;
+  max-width: 700px;
+  margin: 25px auto;
+}
+
+.carousel-image-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-slide {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.45);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.carousel-btn:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+</style>
+
+<script>
+let currentSlide = 0;
+
+function showSlide(index) {
+  const slides = document.querySelectorAll(".carousel-slide");
+  const counter = document.getElementById("carousel-counter");
+
+  if (slides.length === 0) return;
+
+  if (index >= slides.length) currentSlide = 0;
+  if (index < 0) currentSlide = slides.length - 1;
+
+  slides.forEach(slide => slide.style.display = "none");
+  slides[currentSlide].style.display = "block";
+
+  counter.textContent = `${currentSlide + 1} / ${slides.length}`;
+}
+
+function changeSlide(direction) {
+  currentSlide += direction;
+  showSlide(currentSlide);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  showSlide(currentSlide);
+});
+</script>
