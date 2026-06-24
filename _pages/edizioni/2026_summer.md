@@ -278,6 +278,8 @@ classifica.forEach((p, index) => {
 
 <script>
 let currentSlide = 0;
+let touchStartX = 0;
+let touchEndX = 0;
 
 function showSlide(index) {
   const slides = document.querySelectorAll(".carousel-slide");
@@ -301,5 +303,36 @@ function changeSlide(direction) {
 
 document.addEventListener("DOMContentLoaded", function() {
   showSlide(currentSlide);
+
+  const carousel = document.querySelector(".edition-carousel");
+
+  carousel.addEventListener("touchstart", function(e) {
+    touchStartX = e.changedTouches[0].screenX;
+  });
+
+  carousel.addEventListener("touchend", function(e) {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  });
+
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "ArrowRight") {
+      changeSlide(1);
+    } else if (e.key === "ArrowLeft") {
+      changeSlide(-1);
+    }
+  });
 });
+
+function handleSwipe() {
+  const swipeDistance = touchEndX - touchStartX;
+
+  if (swipeDistance < -50) {
+    changeSlide(1);
+  }
+
+  if (swipeDistance > 50) {
+    changeSlide(-1);
+  }
+}
 </script>
