@@ -211,7 +211,7 @@ classifica.forEach((p, index) => {
 
 <h3>Foto dell'edizione</h3>
 
-{% assign edition_images = site.static_files | where_exp: "file", "file.path contains '/images/Edizioni/{{ edition.slug }}/'" %}
+{% assign edition_images = site.static_files | where_exp: "file", "file.path contains '/images/Edizioni/2026_summer/'" %}
 
 <div class="edition-carousel">
   <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
