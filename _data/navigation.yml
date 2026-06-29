@@ -37,8 +37,8 @@ main:
   - title: "Edizioni"
     url: /edizioni/
 
-  - title: "Albo d'Oro"
-    url: /albo-doro/
+  - title: "Ranking"
+    url: /ranking/
 
   - title: "Partecipanti"
     url: /partecipanti/
