@@ -17,14 +17,12 @@ author_profile: true
 </div>
 
 Il <strong>Ranking Filippi Slam</strong> premia la partecipazione e i risultati ottenuti nelle diverse edizioni del torneo. Il punteggio complessivo di ogni giocatore è dato dalla somma dei punti conquistati nel periodo di tempo selezionato.<br>
-Per ogni torneo vengono assegnati:
-<ul style="margin-top:0; margin-bottom:10px;">
+Per ogni torneo vengono assegnati: <ul style="margin-top:0; margin-bottom:10px;">
   <li><strong>20 punti</strong> per la partecipazione;</li>
   <li><strong>5 punti</strong> per ogni vittoria nel girone;</li>
   <li><strong>15 punti</strong> per la qualificazione alle semifinali;</li>
   <li><strong>15 punti</strong> per la qualificazione alla finale;</li>
-  <li><strong>20 punti</strong> per la vittoria del torneo.</li>
-</ul>
+  <li><strong>20 punti</strong> per la vittoria del torneo.</li> </ul>
 Il menu in alto a destra consente di visualizzare la classifica relativa agli ultimi <strong>1 mese</strong>, <strong>6 mesi</strong>, <strong>1 anno</strong>, <strong>3 anni</strong> oppure quella <strong>assoluta</strong>.
 
   <select id="ranking-filter" style="padding:6px 10px; border-radius:6px;">
