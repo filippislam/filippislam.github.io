@@ -4,7 +4,7 @@
   anno: 2001
   genere: M
   foto: matteo_filippi_foto.jpg
-  descrizione: Cofondatore del Filippi Slam. Ha raggiunto la finale in entrambe le prime edizioni, dimostrando una notevole costanza... nel perdere l'ultima partita.
+  descrizione: "Cofondatore del Filippi Slam. Ha raggiunto la finale in entrambe le prime edizioni, dimostrando una notevole costanza... nel perdere l'ultima partita."
 
 - nome: Luca Filippi
   slug: luca-filippi
@@ -12,7 +12,7 @@
   anno: 1999
   genere: M
   foto: luca_filippi_foto.jpg
-  descrizione: Cofondatore del Filippi Slam e principale artefice dell'organizzazione. Da quando ha perfezionato il torneo, sembra aver sacrificato qualche vittoria sul campo.
+  descrizione: "Cofondatore del Filippi Slam e principale artefice dell'organizzazione. Da quando ha perfezionato il torneo, sembra aver sacrificato qualche vittoria sul campo."
 
 - nome: Nicolo Belè
   slug: nicolo-bele
@@ -20,7 +20,7 @@
   anno: 2001
   genere: M
   foto: nicolo_bele_foto.jpg
-  descrizione: Ha esordito nel Filippi Slam col botto, raggiungendo subito le semifinali. Il potenziale è evidente e siamo certi che tornerà presto per prendersi ciò che gli spetta.
+  descrizione: "Ha esordito nel Filippi Slam col botto, raggiungendo subito le semifinali. Il potenziale è evidente e siamo certi che tornerà presto per prendersi ciò che gli spetta."
 
 - nome: Davide Casella
   slug: davide-casella
@@ -28,7 +28,7 @@
   anno: 1999
   genere: M
   foto: davide_casella_foto.jpg
-  descrizione: Ottimo esordio al Filippi Slam, dove ha stupito fin da subito tutti i partecipanti. Il suo dritto sembra già incutere timore e la sensazione è che possa ancora dare molto nelle prossime edizioni.
+  descrizione: "Ottimo esordio al Filippi Slam, dove ha stupito fin da subito tutti i partecipanti. Il suo dritto sembra già incutere timore e la sensazione è che possa ancora dare molto nelle prossime edizioni."
 
 - nome: Leonardo Forigo
   slug: leonardo-forigo
@@ -36,7 +36,7 @@
   anno: 1997
   genere: M
   foto: leonardo_forigo_foto.jpg
-  descrizione: È arrivato, ha vinto e lo ha fatto senza perdere una sola partita. Un esordio semplicemente perfetto, ma guai ad adagiarsi: gli avversari sono già al lavoro per interrompere il suo dominio.
+  descrizione: "È arrivato, ha vinto e lo ha fatto senza perdere una sola partita. Un esordio semplicemente perfetto, ma guai ad adagiarsi: gli avversari sono già al lavoro per interrompere il suo dominio."
 
 - nome: Denis Camilotto
   slug: denis-camilotto
@@ -44,7 +44,7 @@
   anno: 2001
   genere: M
   foto: denis_camilotto_foto.jpg
-  descrizione: Una presenza davvero speciale, arrivato addirittura da Firenze per prendere parte al Filippi Slam. Alla prima partecipazione non è riuscito a conquistare la qualificazione, ma il potenziale è evidente e speriamo di rivederlo presto in campo.
+  descrizione: "Una presenza davvero speciale, arrivato addirittura da Firenze per prendere parte al Filippi Slam. Alla prima partecipazione non è riuscito a conquistare la qualificazione, ma il potenziale è evidente e speriamo di rivederlo presto in campo."
 
 - nome: Alessandro Furia
   slug: alessandro-furia
@@ -52,7 +52,7 @@
   anno: 1999
   genere: M
   foto: alessandro_furia_foto.jpg
-  descrizione: Sempre presente sin dalla nascita del Filippi Slam. Il palmarès può ancora crescere, ma può già vantarsi di un'impresa: aver inflitto l'unica sconfitta ai gironi al futuro campione Lorenzo Gamba nella prima edizione.
+  descrizione: "Sempre presente sin dalla nascita del Filippi Slam. Il palmarès può ancora crescere, ma può già vantarsi di un'impresa: aver inflitto l'unica sconfitta ai gironi al futuro campione Lorenzo Gamba nella prima edizione."
 
 - nome: Matteo Farinazzo
   slug: matteo-farinazzo
@@ -60,7 +60,7 @@
   anno: 2000
   genere: M
   foto: matteo_farinazzo_foto.jpg
-  descrizione: Ha esordito nella Summer Edition 2026 affrontando un girone tutt'altro che semplice. Giocatore in costante crescita, ha già dimostrato il suo valore e il suo dritto è tra i più temuti del circuito. Nella prossima edizione sarà sicuramente uno degli avversari da tenere d'occhio.
+  descrizione: "Ha esordito nella Summer Edition 2026 affrontando un girone tutt'altro che semplice. Giocatore in costante crescita, ha già dimostrato il suo valore e il suo dritto è tra i più temuti del circuito. Nella prossima edizione sarà sicuramente uno degli avversari da tenere d'occhio."
 
 - nome: Noemi Morandini
   slug: noemi-morandini
@@ -68,7 +68,7 @@
   anno: 1999
   genere: F
   foto: noemi_morandini_foto.jpg
-  descrizione: Tra i volti storici del Filippi Slam, è presente sin dalla prima edizione. Ogni torneo conferma la sua competitività e la capacità di rendere ogni partita tutt'altro che semplice.
+  descrizione: "Tra i volti storici del Filippi Slam, è presente sin dalla prima edizione. Ogni torneo conferma la sua competitività e la capacità di rendere ogni partita tutt'altro che semplice."
 
 - nome: Lorenzo Gamba
   slug: lorenzo-gamba
@@ -76,7 +76,7 @@
   anno: 1999
   genere: M
   foto: lorenzo_gamba_foto.jpg
-  descrizione: Primo campione della storia del Filippi Slam. Dopo il trionfo nella Winter Edition 2025 non è riuscito a qualificarsi nell'edizione successiva, dimostrando quanto il torneo sia imprevedibile. I suoi immancabili taglietti sono ormai un marchio di fabbrica.
+  descrizione: "Primo campione della storia del Filippi Slam. Dopo il trionfo nella Winter Edition 2025 non è riuscito a qualificarsi nell'edizione successiva, dimostrando quanto il torneo sia imprevedibile. I suoi immancabili taglietti sono ormai un marchio di fabbrica."
 
 - nome: Leonardo Mereghetti
   slug: leonardo-mereghetti
@@ -84,7 +84,7 @@
   anno: 2010
   genere: M
   foto: leonardo_mereghetti_foto.jpg
-  descrizione: Il più giovane partecipante del Filippi Slam. Corre su ogni pallina e dà filo da torcere ai "vecchietti" del torneo. Dopo la semifinale raggiunta nella prima edizione, non è riuscito a ripetersi nella seconda, ma il potenziale è tutto dalla sua parte.
+  descrizione: "Il più giovane partecipante del Filippi Slam. Corre su ogni pallina e dà filo da torcere ai "vecchietti" del torneo. Dopo la semifinale raggiunta nella prima edizione, non è riuscito a ripetersi nella seconda, ma il potenziale è tutto dalla sua parte."
 
 - nome: Matteo Bertolaso
   slug: matteo-bertolaso
@@ -92,7 +92,7 @@
   anno: 2001
   genere: M
   foto: matteo_bertolaso_foto.jpg
-  descrizione: Ottimo esordio al Filippi Slam, culminato con una semifinale già alla prima partecipazione. Simpatico, instancabile e sempre positivo, ha dimostrato di avere ancora molto da dire nelle prossime edizioni.
+  descrizione: "Ottimo esordio al Filippi Slam, culminato con una semifinale già alla prima partecipazione. Simpatico, instancabile e sempre positivo, ha dimostrato di avere ancora molto da dire nelle prossime edizioni."
 
 - nome: Leonardo Reame
   slug: leonardo-reame
@@ -100,7 +100,7 @@
   anno: 1994
   genere: M
   foto: leonardo_reame_foto.jpg
-  descrizione: Ha preso parte alla storica prima edizione, ma non ha potuto esserci nella successiva. Ci auguriamo di rivederlo presto, perché il meglio del suo tennis deve ancora arrivare.
+  descrizione: "Ha preso parte alla storica prima edizione, ma non ha potuto esserci nella successiva. Ci auguriamo di rivederlo presto, perché il meglio del suo tennis deve ancora arrivare."
 
 - nome: Chiara Morandini
   slug: chiara-morandini
@@ -108,4 +108,4 @@
   anno: 1999
   genere: F
   foto: chiara_morandini_foto.jpg
-  descrizione: Presente fin dalla prima edizione, è una delle partecipanti storiche del torneo. Ha saputo farsi valere in campo e resta una delle "originali" del Filippi Slam.
+  descrizione: "Presente fin dalla prima edizione, è una delle partecipanti storiche del torneo. Ha saputo farsi valere in campo e resta una delle "originali" del Filippi Slam."
