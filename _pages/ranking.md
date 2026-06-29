@@ -1,3 +1,9 @@
+---
+title: "Ranking"
+permalink: /ranking/
+author_profile: true
+---
+
 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
   <h2>Ranking Filippi Slam</h2>
 
