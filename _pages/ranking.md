@@ -4,8 +4,8 @@ permalink: /ranking/
 author_profile: true
 ---
 
-<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
-  <h2>Ranking Filippi Slam</h2>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; width:100%;">
+  <h2 style="margin:0;">Ranking Filippi Slam</h2>
 
   <select id="ranking-filter" style="padding:6px 10px; border-radius:6px;">
     <option value="all" selected>Sempre</option>
@@ -16,24 +16,17 @@ author_profile: true
   </select>
 </div>
 
-Il <strong>Ranking Filippi Slam</strong> premia la partecipazione e i risultati ottenuti nelle diverse edizioni del torneo. Il punteggio complessivo di ogni giocatore è dato dalla somma dei punti conquistati nel periodo di tempo selezionato.<br>
-Per ogni torneo vengono assegnati:
-<ul style="margin:0; padding-left:20px;">
-  <li><strong>20 punti</strong> per la partecipazione;</li>
-  <li><strong>5 punti</strong> per ogni vittoria nel girone;</li>
-  <li><strong>15 punti</strong> per la qualificazione alle semifinali;</li>
-  <li><strong>15 punti</strong> per la qualificazione alla finale;</li>
-  <li><strong>20 punti</strong> per la vittoria del torneo.</li>
-</ul>
-Il menu in alto a destra consente di visualizzare la classifica relativa agli ultimi <strong>1 mese</strong>, <strong>6 mesi</strong>, <strong>1 anno</strong>, <strong>3 anni</strong> oppure quella <strong>assoluta</strong>.
-
-  <select id="ranking-filter" style="padding:6px 10px; border-radius:6px;">
-    <option value="all" selected>Sempre</option>
-    <option value="1">1 mese</option>
-    <option value="6">6 mesi</option>
-    <option value="12">1 anno</option>
-    <option value="36">3 anni</option>
-  </select>
+<div style="margin-bottom:20px;">
+  Il <strong>Ranking Filippi Slam</strong> premia la partecipazione e i risultati ottenuti nelle diverse edizioni del torneo. Il punteggio complessivo di ogni giocatore è dato dalla somma dei punti conquistati nel periodo di tempo selezionato.<br>
+  Per ogni torneo vengono assegnati:
+  <ul style="margin:0; padding-left:20px;">
+    <li><strong>20 punti</strong> per la partecipazione;</li>
+    <li><strong>5 punti</strong> per ogni vittoria nel girone;</li>
+    <li><strong>15 punti</strong> per la qualificazione alle semifinali;</li>
+    <li><strong>20 punti</strong> per la qualificazione alla finale;</li>
+    <li><strong>40 punti</strong> per la vittoria del torneo.</li>
+  </ul>
+  Il menu in alto a destra consente di visualizzare la classifica relativa agli ultimi <strong>1 mese</strong>, <strong>6 mesi</strong>, <strong>1 anno</strong>, <strong>3 anni</strong> oppure quella <strong>assoluta</strong>.
 </div>
 
 <table id="ranking-table">
