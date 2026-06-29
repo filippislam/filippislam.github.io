@@ -11,11 +11,15 @@
     - alessandro-furia
     - lorenzo-gamba
     - leonardo-reame
-  classifica:
-    - lorenzo-gamba
-    - matteo-filippi
-    - luca-filippi
-    - leonardo-mereghetti
+  punti:
+    lorenzo-gamba: 80
+    matteo-filippi: 60
+    luca-filippi: 50
+    leonardo-mereghetti: 45
+    noemi-morandini: 25
+    alessandro-furia: 25
+    chiara-morandini: 20
+    leonardo-reame: 20
   partite:
     Girone A:
       - giocatore_1: luca-filippi
@@ -119,11 +123,19 @@
     - noemi-morandini
     - leonardo-mereghetti
     - matteo-bertolaso
-  classifica:
-    - leonardo-forigo
-    - matteo-filippi
-    - nicolo-bele
-    - matteo-farinazzo
+  punti:
+    leonardo-forigo: 85
+    matteo-filippi: 60
+    nicolo-bele: 50
+    matteo-farinazzo: 40
+    matteo-bertolaso: 35
+    leonardo-mereghetti: 30
+    lorenzo-gamba: 25
+    davide-casella: 25
+    denis-camilotto: 25
+    alessandro-furia: 20
+    luca-filippi: 20
+    noemi-morandini: 20
   partite:
     Girone A:
       - giocatore_1: nicolo-bele
