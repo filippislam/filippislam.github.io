@@ -238,9 +238,9 @@ collections:
   Edizioni:
     output: true
     permalink: /edizioni/:path/
-  Albo d'oro:
+  Ranking:
     output: true
-    permalink: /albo-doro/:path/
+    permalink: /ranking/:path/
   Partecipanti:
     output: true
     permalink: /partecipanti/:path/
